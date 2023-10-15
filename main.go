@@ -32,3 +32,6 @@ func printMap(c map[string]string) {
 		fmt.Printf("%v, %v ", color, hex) //need printf for format directive %v
 	}
 }
+
+//Map is reference type, struct is value type
+//Keys in Map are INDEXED
